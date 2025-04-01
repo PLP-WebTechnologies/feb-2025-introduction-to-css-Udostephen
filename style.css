@@ -1,0 +1,64 @@
+/* Global body styling */
+body {
+    background-color: #f8f9fa; /* Light background color */
+    font-family: 'Arial', sans-serif; /* Set a default font for the page */
+    margin: 0;
+    padding: 0;
+}
+
+/* ID selector for the header */
+#header {
+    background-color: #007bff; /* Blue background for header */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 36px;
+    margin-bottom: 30px; /* Margin below the header */
+}
+
+/* Class selector for paragraph */
+.text-content {
+    font-family: 'Georgia', serif; /* Different font for paragraphs */
+    font-size: 18px;
+    color: #333; /* Dark grey text color */
+    padding: 15px;
+    margin: 0 30px; /* Horizontal margin */
+    line-height: 1.6; /* Improved readability */
+}
+
+/* Styling an image */
+#logo {
+    width: 150px;
+    height: auto;
+    border: 5px solid #333; /* Dark border around the image */
+    border-radius: 8px; /* Rounded corners for the image */
+    display: block;
+    margin: 20px auto; /* Center the image and add margin */
+}
+
+/* Element selector for articles */
+article {
+    padding: 25px;
+    margin: 20px;
+    border: 2px solid #ccc; /* Light grey border */
+    background-color: white; /* White background for the article */
+    border-radius: 10px; /* Rounded corners for the article */
+}
+
+/* Add a hover effect for the button */
+.button {
+    display: inline-block;
+    background-color: #28a745;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.button:hover {
+    background-color: #218838; /* Darker green on hover */
+    cursor: pointer;
+}
